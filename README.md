@@ -1,2 +1,3 @@
-# spark-for-java-devs
+# WIP
+## spark-for-java-devs
 Learn Spark for Java Developers
