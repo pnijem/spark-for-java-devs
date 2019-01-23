@@ -22,6 +22,13 @@ hardcoded data will be ignored and the relevant files will be loaded. These file
 https://github.com/pnijem/spark-for-java-devs/blob/master/src/main/java/com/pnijem/spark/ViewingRankingsApp.java
 
 
+# Requirements
+Java 8
+Spark Core 2.0.0
+Hadoop HDFS 2.2.0
 
 
 # Soon to be added - SparkSQL
+
+
+
