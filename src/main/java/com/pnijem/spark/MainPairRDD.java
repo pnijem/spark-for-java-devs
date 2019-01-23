@@ -39,10 +39,10 @@ public class MainPairRDD {
                     .groupByKey()
                     .foreach(tuple -> System.out.println(tuple._1 + " has " + Iterables.size(tuple._2) + " instances"));
 
-        } catch(Exception e){
+        } catch (Exception e) {
             Logger.getLogger(MainMapping.class).error(e);
-        }finally {
-            if(sc!=null)
+        } finally {
+            if (sc != null)
                 sc.close();
         }
     }

@@ -40,7 +40,7 @@ public class MainFlatMap {
             filteredWords.collect().forEach(System.out::println);
 
         } catch (Exception e) {
-            Logger.getLogger(MainMapping.class).error(e);
+            Logger.getLogger(MainFlatMap.class).error(e);
         } finally {
             if (sc != null)
                 sc.close();

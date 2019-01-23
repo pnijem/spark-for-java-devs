@@ -16,7 +16,7 @@ public class MainReadFromDisk {
             System.setProperty("hadoop.home.dir", "c:/hadoop");
             Logger.getLogger("org.apache").setLevel(Level.WARN);
 
-            SparkConf conf = new SparkConf().setAppName("startingSpark").setMaster("local[*]");
+            SparkConf conf = new SparkConf().setAppName("readFromDiskSpark").setMaster("local[*]");
             sc = new JavaSparkContext(conf);
             //load a file from disk
             JavaRDD<String> initialRdd = sc.textFile("src/main/resources/subtitles/input.txt");
@@ -25,7 +25,7 @@ public class MainReadFromDisk {
                     .collect().forEach(System.out::println);
 
         } catch (Exception e) {
-            Logger.getLogger(MainMapping.class).error(e);
+            Logger.getLogger(MainReadFromDisk.class).error(e);
         } finally {
             if (sc != null)
                 sc.close();
