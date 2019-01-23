@@ -28,7 +28,7 @@ https://github.com/pnijem/spark-for-java-devs/blob/master/src/main/java/com/pnij
 * Hadoop HDFS 2.2.0
 
 
-# Soon to be added - SparkSQL
+# Soon to be added - SparkSQL & Spark Streaming
 
 
 
