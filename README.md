@@ -21,4 +21,6 @@ hardcoded data will be ignored and the relevant files will be loaded. These file
 https://github.com/pnijem/spark-for-java-devs/blob/master/src/main/java/com/pnijem/spark/ViewingRankingsApp.java
 
 
-## Soon to be added - SparkSQL
+
+
+# Soon to be added - SparkSQL
