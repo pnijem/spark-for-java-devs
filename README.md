@@ -17,7 +17,8 @@
 ### Guidelines
 
 In the file below you will find a boolean flag 'testMode'. Have it as 'true' to use hardcoded data. 'false' means the 
-hardcoded data will be ignored and the relevant files will be loaded. These files can be found here: src/main/resources/viewing figures
+hardcoded data will be ignored and the relevant files will be loaded. These files can be found here: https://github.com/pnijem/spark-for-java-devs/tree/master/src/main/resources/viewing%20figures
+
 https://github.com/pnijem/spark-for-java-devs/blob/master/src/main/java/com/pnijem/spark/ViewingRankingsApp.java
 
 
