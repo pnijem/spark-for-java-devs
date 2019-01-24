@@ -14,7 +14,7 @@ import java.util.List;
  * This class is used in the chapter late in the course where we analyse viewing figures.
  * You can ignore until then.
  */
-public class ViewingRankingsApp {
+public class ViewsRankingsApp {
     @SuppressWarnings("resource")
     public static void main(String[] args) {
         JavaSparkContext sc = null;
@@ -74,7 +74,7 @@ public class ViewingRankingsApp {
             resultRdd.sortByKey(false).collect().forEach(System.out::println);
 
         } catch (Exception e) {
-            Logger.getLogger(ViewingRankingsApp.class).error(e);
+            Logger.getLogger(ViewsRankingsApp.class).error(e);
         } finally {
             if (sc != null) {
                 sc.close();
